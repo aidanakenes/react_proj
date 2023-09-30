@@ -1,0 +1,325 @@
+.container{
+    width: 1500px;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+.search{
+    width: 800px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+}
+/* SEARCH--------------------------------------- */
+.top-bar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(73, 109, 163);
+    padding: 3px;
+    gap: 1px;
+    border-radius: 7px;
+}
+.top-bar input{
+    display: flex;
+    height: 25px;
+    background-color: rgb(236, 238, 241);
+    border: none;
+    outline: none;
+    padding: 7px;
+    color: #626262;
+    font-size: 12px;
+    font-weight: 400;
+}
+.class{
+    width: 11%;
+    height: 39px;
+    color: #626262;
+    background-color: rgb(236, 238, 241);
+    font-size: 10px;
+    padding: 7px;
+    border: none;
+}
+.origin, .destination{
+    width: 16%;
+    text-align: center;
+}
+.origin{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.origin-date, .destination-date{
+    width: 16%;
+}
+.adult, .child, .infant, .currency{
+    width: 10%;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 39px;
+    background: rgb(236, 238, 241);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    cursor: pointer;
+}
+.plane-image{
+    margin-top: -40px;
+    margin-left: 88px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+/* SEARCH--------------------------------------- */
+
+
+
+/* SEARCH RESULT--------------------------------------- */
+.offer{
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(236, 238, 241);
+    border-radius: 10px;
+    gap: 5px;
+}
+.offer div{
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+}
+.airline-data{
+    display: flex;
+}
+.origin-data, .destination-data{
+    color: #8d8c8c;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 450;
+}
+.origin-time-data, .destination-time-data{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+.origin-date-data, .destination-date-data{
+    text-align: left;
+    font-size: 12px;
+}
+.class-data{
+    padding: 10px;
+    display: flex;
+}
+.class-data text{
+    background-color: rgb(111, 212, 128);
+    color: rgb(6, 100, 22);
+    display: flex;
+    padding: 7px;
+    border: rgb(6, 100, 22);
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.searchDetails{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.detailsBtn{
+    font-size: 20px;
+    width: 150px;
+    padding: 7px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(89, 132, 196);
+    color: white;
+    border-color: #5c44e4;
+}
+/* SEARCH RESULT--------------------------------------- */
+
+
+/* DETAILS--------------------------------------- */
+.details{
+    width: 350px;
+    background-color: rgb(236, 238, 241);
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    height: auto;
+}
+.right-bar{
+    padding: 20px;
+    height: auto;
+}
+.detailsRoute{
+    text-align: left;
+    font-weight: 530;
+    font-size: 15px;
+}
+.flight{
+    display: contents;
+    width: 350px;
+}
+.box{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dates{
+    width: 300px;
+    justify-content: center;
+    margin: 5px;
+}
+.airlineName{
+    width: 50%;
+    text-align: left;
+    font-size: 11px;
+}
+.flightNum{
+    width: 50%;
+    text-align: right;
+    font-size: 11px;
+    font-weight: 500;
+    color: #626262;
+}
+.detailsOriginTime, .detailsDestinationTime{
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+}
+.detailsOrigin, .detailsDestination{
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.detailsOriginDate, .detailsDestinationDate{
+    width: 100%;
+    text-align: left;
+    font-size: 11px;
+    color: #626262;
+}
+.baggage{
+    width: 100%;
+    text-align: left;
+    display: flex;
+}
+.baggage div{
+    font-size: 13px;
+    color: #626262;
+}
+.baggageIcon{
+    width: 16px;
+    height: 16px;
+}
+
+/* DETAILS--------------------------------------- */
+
+
+/* BOOK FORM--------------------------------------- */
+.bookForm{
+    margin-top: 30px;
+}
+.bookForm input{
+    background-color: rgb(236, 238, 241);
+    border-radius: 9px;
+    color: rgb(97, 97, 97);
+    height: 40px;
+    width: 145px;
+    margin: 2px;
+    border-color: #cfcfcf;
+    border-width: 1px;
+}
+.book{
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 550;
+    width: 150px;
+    padding: 7px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 1px;
+    cursor: pointer;
+    background-color: rgb(89, 132, 196);
+    color: white;
+    border-color: #5c44e4;
+}
+/* BOOK FORM--------------------------------------- */
+
+
+/* BOOKING--------------------------------------- */
+.booking{
+    width: 350px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    height: auto;
+    padding: 20px;
+}
+.bookingInfo{
+    display: contents;
+    background-color: rgb(236, 238, 241);
+}
+.bookBox{
+    display: flex;
+    padding: 5px;
+    width: 350px;
+}
+.pnr{
+    text-align: left;
+    font-weight: 450;
+    font-size: 14px;
+    width: 50%;
+    margin-top: 10px;
+}
+.expiresAt{
+    text-align: right;
+    font-weight: 400;
+    font-size: 12px;
+    color: #626262;
+    width: 50%;
+}
+.innerBox{
+    width: 50%;
+}
+.contactText{
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    color: #626262;
+}
+.contactData{
+    text-align: right;
+    font-weight: 400;
+    font-size: 12px;
+}
+.passengers{
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    gap: 6px;
+    font-size: 12px;
+}
+.passenger{
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(112, 139, 182);
+}
+.passenger text{
+    color: #2b5374;
+    font-size: 10px;
+    font-weight: 500;
+}
+/* BOOKING--------------------------------------- */
